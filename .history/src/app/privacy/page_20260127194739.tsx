@@ -207,7 +207,7 @@ export default function PrivacyPage() {
               </CardHeader>
               <CardContent className="text-muted-foreground">
                 <p className="leading-relaxed mb-4">
-                  Questions about our privacy practices? We&apos;re here to help.
+                  Questions about our privacy practices? We're here to help.
                 </p>
                 <p className="leading-relaxed">
                   Email: <a href="mailto:privacy@reprise.com" className="text-primary hover:underline font-bold">privacy@reprise.com</a><br />

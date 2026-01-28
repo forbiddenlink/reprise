@@ -134,7 +134,7 @@ export default function CookiesPage() {
                   RepRise does NOT currently use advertising cookies.
                 </p>
                 <p className="leading-relaxed">
-                  We don&apos;t show ads or track you for advertising purposes. If this changes in the future, we&apos;ll update this policy and give you control over these cookies.
+                  We don't show ads or track you for advertising purposes. If this changes in the future, we'll update this policy and give you control over these cookies.
                 </p>
               </CardContent>
             </Card>
