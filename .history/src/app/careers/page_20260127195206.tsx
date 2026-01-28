@@ -176,10 +176,10 @@ export default function CareersPage() {
           <Card className="mt-12 border-2 border-dashed max-w-2xl mx-auto">
             <CardContent className="pt-8 pb-8 text-center">
               <h3 className="font-heading text-2xl font-bold mb-3">
-                Don&apos;t see the right role?
+                Don't see the right role?
               </h3>
               <p className="text-muted-foreground mb-6 leading-relaxed">
-                We&apos;re always looking for talented people. Send us your resume and we&apos;ll keep you in mind for future opportunities.
+                We're always looking for talented people. Send us your resume and we'll keep you in mind for future opportunities.
               </p>
               <Button variant="outline" size="lg" className="h-12 px-8 border-2 font-bold">
                 Send Your Resume

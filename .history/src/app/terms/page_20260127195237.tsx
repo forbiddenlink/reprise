@@ -212,7 +212,7 @@ export default function TermsPage() {
               </CardHeader>
               <CardContent className="space-y-4 text-muted-foreground">
                 <p className="leading-relaxed">
-                  We may update these Terms periodically. We&apos;ll notify you of material changes via email or Platform notification. Continued use after changes constitutes acceptance of the new Terms.
+                  We may update these Terms periodically. We'll notify you of material changes via email or Platform notification. Continued use after changes constitutes acceptance of the new Terms.
                 </p>
               </CardContent>
             </Card>
@@ -243,7 +243,7 @@ export default function TermsPage() {
             Ready to Find Your Trainer?
           </h2>
           <p className="text-lg text-muted-foreground mb-8 leading-relaxed">
-            By using RepRise, you agree to these terms. Let&apos;s get started!
+            By using RepRise, you agree to these terms. Let's get started!
           </p>
           <Button asChild size="lg" className="text-lg h-14 px-12 shadow-xl hover:shadow-2xl hover:scale-105 transition-all font-bold">
             <Link href="/match/quiz">

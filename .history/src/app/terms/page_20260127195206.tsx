@@ -64,7 +64,7 @@ export default function TermsPage() {
               </CardHeader>
               <CardContent className="space-y-4 text-muted-foreground">
                 <p className="leading-relaxed">
-                  Welcome to RepRise. These Terms of Service (&quot;Terms&quot;) govern your use of our website, mobile application, and related services (collectively, the &quot;Platform&quot;). By accessing or using the Platform, you agree to be bound by these Terms.
+                  Welcome to RepRise. These Terms of Service ("Terms") govern your use of our website, mobile application, and related services (collectively, the "Platform"). By accessing or using the Platform, you agree to be bound by these Terms.
                 </p>
                 <p className="leading-relaxed">
                   If you&apos;re using RepRise on behalf of an organization, you represent that you have the authority to bind that organization to these Terms.
@@ -126,7 +126,7 @@ export default function TermsPage() {
                 <div>
                   <h4 className="font-bold text-foreground mb-2">Platform Fees</h4>
                   <p className="leading-relaxed">
-                    RepRise is currently free for clients. We don&apos;t charge platform fees, booking fees, or subscription costs to clients using the service.
+                    RepRise is currently free for clients. We don't charge platform fees, booking fees, or subscription costs to clients using the service.
                   </p>
                 </div>
                 <div>
@@ -138,7 +138,7 @@ export default function TermsPage() {
                 <div>
                   <h4 className="font-bold text-foreground mb-2">Future Changes</h4>
                   <p className="leading-relaxed">
-                    We reserve the right to introduce fees in the future. We&apos;ll provide at least 30 days notice before implementing any new fees.
+                    We reserve the right to introduce fees in the future. We'll provide at least 30 days notice before implementing any new fees.
                   </p>
                 </div>
               </CardContent>
@@ -158,7 +158,7 @@ export default function TermsPage() {
                   <li className="leading-relaxed">Attempt to bypass security measures or access restricted areas</li>
                   <li className="leading-relaxed">Use the Platform for unauthorized commercial purposes</li>
                   <li className="leading-relaxed">Scrape, crawl, or collect data without permission</li>
-                  <li className="leading-relaxed">Interfere with the Platform&apos;s operation or infrastructure</li>
+                  <li className="leading-relaxed">Interfere with the Platform's operation or infrastructure</li>
                 </ul>
               </CardContent>
             </Card>
@@ -172,7 +172,7 @@ export default function TermsPage() {
                 <div>
                   <h4 className="font-bold text-foreground mb-2">No Warranties</h4>
                   <p className="leading-relaxed">
-                    The Platform is provided &quot;as is&quot; without warranties of any kind. We don&apos;t guarantee uninterrupted or error-free service.
+                    The Platform is provided "as is" without warranties of any kind. We don't guarantee uninterrupted or error-free service.
                   </p>
                 </div>
                 <div>
@@ -212,7 +212,7 @@ export default function TermsPage() {
               </CardHeader>
               <CardContent className="space-y-4 text-muted-foreground">
                 <p className="leading-relaxed">
-                  We may update these Terms periodically. We&apos;ll notify you of material changes via email or Platform notification. Continued use after changes constitutes acceptance of the new Terms.
+                  We may update these Terms periodically. We'll notify you of material changes via email or Platform notification. Continued use after changes constitutes acceptance of the new Terms.
                 </p>
               </CardContent>
             </Card>
@@ -243,7 +243,7 @@ export default function TermsPage() {
             Ready to Find Your Trainer?
           </h2>
           <p className="text-lg text-muted-foreground mb-8 leading-relaxed">
-            By using RepRise, you agree to these terms. Let&apos;s get started!
+            By using RepRise, you agree to these terms. Let's get started!
           </p>
           <Button asChild size="lg" className="text-lg h-14 px-12 shadow-xl hover:shadow-2xl hover:scale-105 transition-all font-bold">
             <Link href="/match/quiz">

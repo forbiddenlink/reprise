@@ -153,7 +153,7 @@ export default function CookiesPage() {
                   <li className="leading-relaxed"><strong className="text-foreground">Vercel:</strong> Hosting and performance monitoring</li>
                 </ul>
                 <p className="leading-relaxed">
-                  These services have their own privacy policies. We recommend reviewing them if you&apos;re concerned about third-party data collection.
+                  These services have their own privacy policies. We recommend reviewing them if you're concerned about third-party data collection.
                 </p>
               </CardContent>
             </Card>
@@ -206,7 +206,7 @@ export default function CookiesPage() {
                 <div>
                   <h4 className="font-bold text-foreground mb-2">Persistent Cookies</h4>
                   <p className="leading-relaxed">
-                    These cookies remain on your device for a set period (typically 30 days to 2 years) or until you manually delete them. We use persistent cookies for features like &quot;remember me&quot; and saved preferences.
+                    These cookies remain on your device for a set period (typically 30 days to 2 years) or until you manually delete them. We use persistent cookies for features like "remember me" and saved preferences.
                   </p>
                 </div>
               </CardContent>

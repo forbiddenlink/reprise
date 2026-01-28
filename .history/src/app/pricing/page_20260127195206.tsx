@@ -207,7 +207,7 @@ export default function PricingPage() {
               </CardHeader>
               <CardContent>
                 <p className="text-muted-foreground leading-relaxed">
-                  No. RepRise is completely free for clients. We don&apos;t charge platform fees, subscription costs, or booking fees. You only pay trainers for their services.
+                  No. RepRise is completely free for clients. We don't charge platform fees, subscription costs, or booking fees. You only pay trainers for their services.
                 </p>
               </CardContent>
             </Card>
