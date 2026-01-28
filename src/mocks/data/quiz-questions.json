@@ -1,0 +1,199 @@
+[
+  {
+    "id": "goals",
+    "text": "What are your primary fitness goals?",
+    "type": "multiple",
+    "options": [
+      {
+        "id": "goal-1",
+        "value": "weight-loss",
+        "label": "Weight Loss"
+      },
+      {
+        "id": "goal-2",
+        "value": "muscle-gain",
+        "label": "Build Muscle"
+      },
+      {
+        "id": "goal-3",
+        "value": "endurance",
+        "label": "Improve Endurance"
+      },
+      {
+        "id": "goal-4",
+        "value": "flexibility",
+        "label": "Increase Flexibility"
+      },
+      {
+        "id": "goal-5",
+        "value": "general-fitness",
+        "label": "General Fitness & Health"
+      },
+      {
+        "id": "goal-6",
+        "value": "rehabilitation",
+        "label": "Rehabilitation & Recovery"
+      }
+    ]
+  },
+  {
+    "id": "experience",
+    "text": "What's your current fitness experience level?",
+    "type": "single",
+    "options": [
+      {
+        "id": "exp-1",
+        "value": "beginner",
+        "label": "Beginner - Just starting my fitness journey"
+      },
+      {
+        "id": "exp-2",
+        "value": "intermediate",
+        "label": "Intermediate - Regular exercise routine"
+      },
+      {
+        "id": "exp-3",
+        "value": "advanced",
+        "label": "Advanced - Years of consistent training"
+      },
+      {
+        "id": "exp-4",
+        "value": "athlete",
+        "label": "Athlete - Competitive or sport-specific training"
+      }
+    ]
+  },
+  {
+    "id": "training-style",
+    "text": "What training styles appeal to you?",
+    "type": "multiple",
+    "options": [
+      {
+        "id": "style-1",
+        "value": "high-intensity",
+        "label": "High-Intensity Intervals (HIIT)"
+      },
+      {
+        "id": "style-2",
+        "value": "steady-state",
+        "label": "Steady-State Cardio"
+      },
+      {
+        "id": "style-3",
+        "value": "strength-focused",
+        "label": "Strength & Powerlifting"
+      },
+      {
+        "id": "style-4",
+        "value": "functional",
+        "label": "Functional Movement"
+      },
+      {
+        "id": "style-5",
+        "value": "mindful",
+        "label": "Mindful Movement (Yoga, Pilates)"
+      },
+      {
+        "id": "style-6",
+        "value": "sport-specific",
+        "label": "Sport-Specific Training"
+      }
+    ]
+  },
+  {
+    "id": "schedule",
+    "text": "When can you typically train?",
+    "type": "multiple",
+    "options": [
+      {
+        "id": "sched-1",
+        "value": "weekday-morning",
+        "label": "Weekday Mornings (6-10am)"
+      },
+      {
+        "id": "sched-2",
+        "value": "weekday-afternoon",
+        "label": "Weekday Afternoons (12-5pm)"
+      },
+      {
+        "id": "sched-3",
+        "value": "weekday-evening",
+        "label": "Weekday Evenings (5-9pm)"
+      },
+      {
+        "id": "sched-4",
+        "value": "weekend-morning",
+        "label": "Weekend Mornings (8am-12pm)"
+      },
+      {
+        "id": "sched-5",
+        "value": "weekend-afternoon",
+        "label": "Weekend Afternoons (12-5pm)"
+      }
+    ]
+  },
+  {
+    "id": "budget",
+    "text": "What's your budget per session?",
+    "type": "single",
+    "options": [
+      {
+        "id": "budget-1",
+        "value": "50-75",
+        "label": "$50-75 per hour"
+      },
+      {
+        "id": "budget-2",
+        "value": "75-100",
+        "label": "$75-100 per hour"
+      },
+      {
+        "id": "budget-3",
+        "value": "100-125",
+        "label": "$100-125 per hour"
+      },
+      {
+        "id": "budget-4",
+        "value": "125+",
+        "label": "$125+ per hour"
+      }
+    ]
+  },
+  {
+    "id": "personality",
+    "text": "What trainer personality traits are important to you?",
+    "type": "multiple",
+    "options": [
+      {
+        "id": "pers-1",
+        "value": "motivating",
+        "label": "Motivating & Encouraging"
+      },
+      {
+        "id": "pers-2",
+        "value": "analytical",
+        "label": "Analytical & Data-Driven"
+      },
+      {
+        "id": "pers-3",
+        "value": "empathetic",
+        "label": "Empathetic & Understanding"
+      },
+      {
+        "id": "pers-4",
+        "value": "disciplined",
+        "label": "Disciplined & Structured"
+      },
+      {
+        "id": "pers-5",
+        "value": "flexible",
+        "label": "Flexible & Adaptive"
+      },
+      {
+        "id": "pers-6",
+        "value": "energetic",
+        "label": "Energetic & Fun"
+      }
+    ]
+  }
+]

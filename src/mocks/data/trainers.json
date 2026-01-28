@@ -1,0 +1,290 @@
+[
+  {
+    "id": "t1",
+    "name": "Sarah Mitchell",
+    "email": "sarah.mitchell@reprise.com",
+    "phone": "(555) 123-4567",
+    "avatar": "https://ui-avatars.com/api/?name=Sarah+Mitchell&size=400&background=E2725B&color=fff",
+    "bio": "Former collegiate athlete turned certified strength coach with a passion for helping busy professionals build sustainable fitness habits. I specialize in time-efficient workouts that deliver maximum results without sacrificing your work-life balance.",
+    "tagline": "Build strength, save time, transform your life",
+    "specialties": ["weight-loss", "muscle-gain", "general-fitness"],
+    "trainingStyles": ["strength-focused", "functional", "high-intensity"],
+    "certifications": ["NASM-CPT", "NSCA-CSCS", "Precision Nutrition Level 1"],
+    "yearsExperience": 8,
+    "personality": ["motivating", "disciplined", "empathetic"],
+    "approachDescription": "I believe in progressive overload with a human touch. Every program is tailored to your goals, schedule, and recovery capacity.",
+    "hourlyRate": 85,
+    "sessionTypes": [
+      {
+        "id": "session-001-01",
+        "name": "Strength Training",
+        "duration": 60,
+        "price": 85,
+        "description": "Full-body strength workout focusing on compound movements",
+        "isVirtual": true,
+        "isInPerson": true
+      },
+      {
+        "id": "session-001-02",
+        "name": "HIIT Session",
+        "duration": 45,
+        "price": 65,
+        "description": "High-intensity interval training for fat loss",
+        "isVirtual": true,
+        "isInPerson": false
+      }
+    ],
+    "availability": [
+      {"day": "monday", "startTime": "06:00", "endTime": "09:00"},
+      {"day": "monday", "startTime": "17:00", "endTime": "20:00"},
+      {"day": "wednesday", "startTime": "06:00", "endTime": "09:00"},
+      {"day": "wednesday", "startTime": "17:00", "endTime": "20:00"},
+      {"day": "friday", "startTime": "06:00", "endTime": "09:00"},
+      {"day": "saturday", "startTime": "08:00", "endTime": "12:00"}
+    ],
+    "timezone": "America/New_York",
+    "rating": 4.9,
+    "totalSessions": 1247,
+    "activeClients": 28,
+    "successStories": 45,
+    "experienceLevels": ["beginner", "intermediate", "advanced"],
+    "location": {
+      "city": "Boston",
+      "state": "MA",
+      "country": "USA"
+    },
+    "verified": true,
+    "featured": true,
+    "createdAt": "2022-03-15T00:00:00.000Z",
+    "updatedAt": "2025-12-30T00:00:00.000Z"
+  },
+  {
+    "id": "t2",
+    "name": "Marcus Chen",
+    "email": "marcus.chen@reprise.com",
+    "phone": "(555) 234-5678",
+    "avatar": "https://ui-avatars.com/api/?name=Marcus+Chen&size=400&background=D4A574&color=2D2D2D",
+    "bio": "Movement specialist and mobility coach helping clients move pain-free and perform better. Whether you're recovering from injury or training for your next race, I'll help you build a resilient body that lasts.",
+    "tagline": "Move better, feel better, live better",
+    "specialties": ["flexibility", "rehabilitation", "endurance"],
+    "trainingStyles": ["mindful", "functional", "steady-state"],
+    "certifications": ["DPT", "SFMA", "FMS Level 2"],
+    "yearsExperience": 12,
+    "personality": ["analytical", "empathetic", "flexible"],
+    "approachDescription": "I use evidence-based movement assessment to identify and correct imbalances before they become injuries.",
+    "hourlyRate": 95,
+    "sessionTypes": [
+      {
+        "id": "session-002-01",
+        "name": "Movement Assessment",
+        "duration": 90,
+        "price": 140,
+        "description": "Comprehensive movement screening and program design",
+        "isVirtual": false,
+        "isInPerson": true
+      },
+      {
+        "id": "session-002-02",
+        "name": "Mobility & Recovery",
+        "duration": 60,
+        "price": 95,
+        "description": "Guided mobility work and recovery techniques",
+        "isVirtual": true,
+        "isInPerson": true
+      }
+    ],
+    "availability": [
+      {"day": "tuesday", "startTime": "07:00", "endTime": "12:00"},
+      {"day": "thursday", "startTime": "07:00", "endTime": "12:00"},
+      {"day": "friday", "startTime": "14:00", "endTime": "18:00"},
+      {"day": "sunday", "startTime": "09:00", "endTime": "13:00"}
+    ],
+    "timezone": "America/Los_Angeles",
+    "rating": 5.0,
+    "totalSessions": 892,
+    "activeClients": 22,
+    "successStories": 67,
+    "experienceLevels": ["intermediate", "advanced", "athlete"],
+    "location": {
+      "city": "San Francisco",
+      "state": "CA",
+      "country": "USA"
+    },
+    "verified": true,
+    "featured": true,
+    "createdAt": "2021-06-20T00:00:00.000Z",
+    "updatedAt": "2025-12-30T00:00:00.000Z"
+  },
+  {
+    "id": "t3",
+    "name": "Jessica Torres",
+    "email": "jessica.torres@reprise.com",
+    "phone": "(555) 345-6789",
+    "avatar": "https://ui-avatars.com/api/?name=Jessica+Torres&size=400&background=E2725B&color=fff",
+    "bio": "High-energy coach specializing in group fitness and metabolic conditioning. I create fun, challenging workouts that make you forget you're exercising. My mission is to help you fall in love with fitness.",
+    "tagline": "Fitness should be fun, not punishment",
+    "specialties": ["weight-loss", "general-fitness", "endurance"],
+    "trainingStyles": ["high-intensity", "functional", "energetic"],
+    "certifications": ["ACE-CPT", "CrossFit Level 2", "Spinning Instructor"],
+    "yearsExperience": 6,
+    "personality": ["motivating", "energetic", "flexible"],
+    "approachDescription": "Every workout is a celebration of what your body can do. I focus on building confidence through achievement.",
+    "hourlyRate": 70,
+    "sessionTypes": [
+      {
+        "id": "session-003-01",
+        "name": "HIIT Bootcamp",
+        "duration": 45,
+        "price": 55,
+        "description": "Full-body metabolic conditioning workout",
+        "isVirtual": true,
+        "isInPerson": true
+      },
+      {
+        "id": "session-003-02",
+        "name": "Cardio & Core",
+        "duration": 30,
+        "price": 40,
+        "description": "Quick cardio blast with core strengthening",
+        "isVirtual": true,
+        "isInPerson": false
+      }
+    ],
+    "availability": [
+      {"day": "monday", "startTime": "05:30", "endTime": "08:00"},
+      {"day": "monday", "startTime": "18:00", "endTime": "20:00"},
+      {"day": "wednesday", "startTime": "05:30", "endTime": "08:00"},
+      {"day": "wednesday", "startTime": "18:00", "endTime": "20:00"},
+      {"day": "friday", "startTime": "05:30", "endTime": "08:00"},
+      {"day": "saturday", "startTime": "07:00", "endTime": "11:00"}
+    ],
+    "timezone": "America/Chicago",
+    "rating": 4.8,
+    "totalSessions": 645,
+    "activeClients": 35,
+    "successStories": 29,
+    "experienceLevels": ["beginner", "intermediate"],
+    "location": {
+      "city": "Chicago",
+      "state": "IL",
+      "country": "USA"
+    },
+    "verified": true,
+    "featured": false,
+    "createdAt": "2023-01-10T00:00:00.000Z",
+    "updatedAt": "2025-12-30T00:00:00.000Z"
+  },
+  {
+    "id": "t4",
+    "name": "David Kim",
+    "email": "david.kim@reprise.com",
+    "phone": "(555) 456-7890",
+    "avatar": "https://ui-avatars.com/api/?name=David+Kim&size=400&background=D4A574&color=2D2D2D",
+    "bio": "Bodybuilding specialist and nutrition coach with a decade of competitive experience. I help clients achieve dramatic physique transformations through intelligent programming and sustainable nutrition strategies.",
+    "tagline": "Build the body you've always wanted",
+    "specialties": ["muscle-gain", "weight-loss"],
+    "trainingStyles": ["strength-focused", "disciplined"],
+    "certifications": ["ISSA-CPT", "ISSA Nutrition", "IFBB Pro Card"],
+    "yearsExperience": 11,
+    "personality": ["disciplined", "analytical", "motivating"],
+    "approachDescription": "Muscle building is a science. I use proven progressive overload protocols paired with precise nutrition to maximize results.",
+    "hourlyRate": 110,
+    "sessionTypes": [
+      {
+        "id": "session-004-01",
+        "name": "Hypertrophy Training",
+        "duration": 60,
+        "price": 110,
+        "description": "Muscle-building workout with proper form coaching",
+        "isVirtual": false,
+        "isInPerson": true
+      },
+      {
+        "id": "session-004-02",
+        "name": "Nutrition Consultation",
+        "duration": 45,
+        "price": 75,
+        "description": "Personalized meal planning and macro coaching",
+        "isVirtual": true,
+        "isInPerson": true
+      }
+    ],
+    "availability": [
+      {"day": "tuesday", "startTime": "14:00", "endTime": "20:00"},
+      {"day": "thursday", "startTime": "14:00", "endTime": "20:00"},
+      {"day": "saturday", "startTime": "09:00", "endTime": "15:00"}
+    ],
+    "timezone": "America/New_York",
+    "rating": 4.9,
+    "totalSessions": 1089,
+    "activeClients": 18,
+    "successStories": 52,
+    "experienceLevels": ["intermediate", "advanced"],
+    "location": {
+      "city": "New York",
+      "state": "NY",
+      "country": "USA"
+    },
+    "verified": true,
+    "featured": true,
+    "createdAt": "2021-09-01T00:00:00.000Z",
+    "updatedAt": "2025-12-30T00:00:00.000Z"
+  },
+  {
+    "id": "t5",
+    "name": "Emma Rodriguez",
+    "email": "emma.rodriguez@reprise.com",
+    "phone": "(555) 567-8901",
+    "avatar": "https://ui-avatars.com/api/?name=Emma+Rodriguez&size=400&background=E2725B&color=fff",
+    "bio": "Yoga instructor and mindfulness coach helping stressed professionals find balance through movement. I blend traditional yoga with modern strength training for a holistic approach to wellness.",
+    "tagline": "Find your balance, inside and out",
+    "specialties": ["flexibility", "rehabilitation", "general-fitness"],
+    "trainingStyles": ["mindful", "functional", "steady-state"],
+    "certifications": ["RYT-500", "NASM-CPT", "Meditation Teacher"],
+    "yearsExperience": 9,
+    "personality": ["empathetic", "flexible", "analytical"],
+    "approachDescription": "True fitness includes mental wellness. I help clients build strength while reducing stress through mindful movement.",
+    "hourlyRate": 80,
+    "sessionTypes": [
+      {
+        "id": "session-005-01",
+        "name": "Yoga & Strength",
+        "duration": 60,
+        "price": 80,
+        "description": "Fusion of yoga flows with strength-building exercises",
+        "isVirtual": true,
+        "isInPerson": true
+      },
+      {
+        "id": "session-005-02",
+        "name": "Restorative Yoga",
+        "duration": 45,
+        "price": 60,
+        "description": "Gentle practice for recovery and stress relief",
+        "isVirtual": true,
+        "isInPerson": false
+      }
+    ],
+    "availability": [
+      {"day": "monday", "startTime": "08:00", "endTime": "12:00"},
+      {"day": "wednesday", "startTime": "08:00", "endTime": "12:00"},
+      {"day": "friday", "startTime": "08:00", "endTime": "12:00"},
+      {"day": "sunday", "startTime": "10:00", "endTime": "14:00"}
+    ],
+    "timezone": "America/Denver",
+    "rating": 4.9,
+    "totalSessions": 734,
+    "activeClients": 26,
+    "successStories": 38,
+    "experienceLevels": ["beginner", "intermediate"],
+    "location": {
+      "city": "Denver",
+      "state": "CO",
+      "country": "USA"
+    },
+    "verified": true,
+    "featured": false,
+    "createdAt": "2022-07-12T00:00:00.000Z",
+    "updatedAt": "2025-12-30T00:00:00.000Z"
+  }
+]
