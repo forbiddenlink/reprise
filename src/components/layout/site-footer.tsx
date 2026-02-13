@@ -1,5 +1,5 @@
 import Link from 'next/link'
-import { Github, Twitter, Linkedin, Heart, Sparkles } from 'lucide-react'
+import { Twitter, Linkedin, Sparkles } from 'lucide-react'
 import { Logo } from '@/components/brand/Logo'
 
 export function SiteFooter() {
@@ -24,9 +24,8 @@ export function SiteFooter() {
   }
 
   const socialLinks = [
-    { icon: Twitter, href: 'https://twitter.com/reprise', label: 'Twitter' },
-    { icon: Github, href: 'https://github.com/reprise', label: 'GitHub' },
-    { icon: Linkedin, href: 'https://linkedin.com/company/reprise', label: 'LinkedIn' },
+    { icon: Twitter, href: '#', label: 'Twitter' },
+    { icon: Linkedin, href: '#', label: 'LinkedIn' },
   ]
 
   return (
@@ -121,8 +120,8 @@ export function SiteFooter() {
             <p className="text-sm text-muted-foreground">
               © {currentYear} RepRise. All rights reserved.
             </p>
-            <p className="text-sm text-muted-foreground flex items-center gap-1">
-              Made with <Heart className="w-4 h-4 text-primary fill-primary animate-pulse" /> for fitness enthusiasts
+            <p className="text-sm text-muted-foreground">
+              San Francisco, CA
             </p>
           </div>
         </div>

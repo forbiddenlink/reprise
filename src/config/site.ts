@@ -3,8 +3,4 @@ export const siteConfig = {
   description: 'Find your perfect fitness trainer with intelligent matching',
   url: process.env.NEXT_PUBLIC_APP_URL || 'http://localhost:3000',
   ogImage: '/og-image.jpg',
-  links: {
-    twitter: 'https://twitter.com/reprise',
-    github: 'https://github.com/reprise',
-  },
 }

@@ -71,7 +71,7 @@ export default function PricingPage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-24 md:py-36 relative z-10">
           <div className="text-center max-w-4xl mx-auto animate-fade-in">
             <Badge className="mb-8 px-5 py-2.5 text-sm font-semibold shadow-lg bg-primary text-white border-0">
-              💰 Simple Pricing
+              Simple Pricing
             </Badge>
             <h1 className="font-heading text-5xl md:text-7xl font-black mb-8 leading-tight">
               Pay Only For

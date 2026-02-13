@@ -227,8 +227,7 @@ export default function TermsPage() {
                   Questions about these Terms? Contact us:
                 </p>
                 <p className="leading-relaxed">
-                  Email: <a href="mailto:legal@reprise.com" className="text-primary hover:underline font-bold">legal@reprise.com</a><br />
-                  Address: 123 Fitness Street, Suite 456, San Francisco, CA 94102
+                  Email: <a href="mailto:legal@reprise.app" className="text-primary hover:underline font-bold">legal@reprise.app</a>
                 </p>
               </CardContent>
             </Card>

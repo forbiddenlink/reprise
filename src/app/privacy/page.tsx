@@ -210,8 +210,7 @@ export default function PrivacyPage() {
                   Questions about our privacy practices? We&apos;re here to help.
                 </p>
                 <p className="leading-relaxed">
-                  Email: <a href="mailto:privacy@reprise.com" className="text-primary hover:underline font-bold">privacy@reprise.com</a><br />
-                  Address: 123 Fitness Street, Suite 456, San Francisco, CA 94102
+                  Email: <a href="mailto:privacy@reprise.app" className="text-primary hover:underline font-bold">privacy@reprise.app</a>
                 </p>
               </CardContent>
             </Card>

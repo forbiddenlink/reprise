@@ -23,7 +23,7 @@ export default function AboutPage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-24 md:py-36 relative z-10">
           <div className="text-center max-w-4xl mx-auto animate-fade-in">
             <Badge className="mb-8 px-5 py-2.5 text-sm font-semibold shadow-lg bg-primary text-white border-0">
-              🌟 About RepRise
+              About RepRise
             </Badge>
             <h1 className="font-heading text-6xl md:text-8xl font-black mb-8 leading-tight">
               Making Fitness
@@ -61,7 +61,7 @@ export default function AboutPage() {
                     <Target className="w-9 h-9 text-primary" />
                   </div>
                   <CardTitle className="text-5xl font-black mb-2 text-primary">98%</CardTitle>
-                  <CardDescription className="text-base font-medium">Match Satisfaction Rate</CardDescription>
+                  <CardDescription className="text-base font-medium">Match Satisfaction</CardDescription>
                 </CardHeader>
               </Card>
               <Card className="border-2 hover:border-primary/50 transition-all duration-500 hover:shadow-xl hover:-translate-y-3 animate-fade-in delay-200 overflow-hidden group">
@@ -69,8 +69,8 @@ export default function AboutPage() {
                   <div className="w-16 h-16 rounded-3xl bg-primary/10 flex items-center justify-center mb-4 group-hover:scale-110 transition-transform duration-500">
                     <Users className="w-9 h-9 text-primary" />
                   </div>
-                  <CardTitle className="text-5xl font-black mb-2 text-terracotta">156+</CardTitle>
-                  <CardDescription className="text-base font-medium">Expert Trainers</CardDescription>
+                  <CardTitle className="text-5xl font-black mb-2 text-terracotta">150+</CardTitle>
+                  <CardDescription className="text-base font-medium">Certified Trainers</CardDescription>
                 </CardHeader>
               </Card>
               <Card className="border-2 hover:border-primary/50 transition-all duration-500 hover:shadow-xl hover:-translate-y-3 animate-fade-in delay-300 overflow-hidden group">
@@ -78,8 +78,8 @@ export default function AboutPage() {
                   <div className="w-16 h-16 rounded-3xl bg-primary/10 flex items-center justify-center mb-4 group-hover:scale-110 transition-transform duration-500">
                     <TrendingUp className="w-9 h-9 text-primary" />
                   </div>
-                  <CardTitle className="text-5xl font-black mb-2 text-primary">1.2K+</CardTitle>
-                  <CardDescription className="text-base font-medium">Sessions Completed</CardDescription>
+                  <CardTitle className="text-5xl font-black mb-2 text-primary">1,200+</CardTitle>
+                  <CardDescription className="text-base font-medium">Sessions Booked</CardDescription>
                 </CardHeader>
               </Card>
               <Card className="border-2 hover:border-primary/50 transition-all duration-500 hover:shadow-xl hover:-translate-y-3 animate-fade-in delay-400 overflow-hidden group">
@@ -87,8 +87,8 @@ export default function AboutPage() {
                   <div className="w-16 h-16 rounded-3xl bg-primary/10 flex items-center justify-center mb-4 group-hover:scale-110 transition-transform duration-500">
                     <Shield className="w-9 h-9 text-primary" />
                   </div>
-                  <CardTitle className="text-5xl font-black mb-2 text-terracotta">100%</CardTitle>
-                  <CardDescription className="text-base font-medium">Certified Trainers</CardDescription>
+                  <CardTitle className="text-5xl font-black mb-2 text-terracotta">2,500+</CardTitle>
+                  <CardDescription className="text-base font-medium">Active Users</CardDescription>
                 </CardHeader>
               </Card>
             </div>

@@ -63,8 +63,8 @@ export default function HomePage() {
               </span>
             </h1>
             <p className="text-xl md:text-2xl mb-12 text-white/95 leading-relaxed drop-shadow-lg max-w-3xl mx-auto font-medium animate-fade-in delay-200">
-              Match with elite trainers who align with your goals, schedule, and personality.
-              <span className="block mt-2 text-white/80">Transform your fitness journey with AI-powered precision.</span>
+              Match with trainers who fit your goals, schedule, and personality.
+              <span className="block mt-2 text-white/80">Stop guessing. Start training with someone who gets you.</span>
             </p>
             <div className="flex flex-col sm:flex-row gap-5 justify-center items-center animate-fade-in delay-300">
               <Button asChild size="lg" className="group relative text-lg h-16 px-12 shadow-2xl hover:shadow-primary/50 transition-all duration-300 overflow-hidden">
@@ -94,10 +94,10 @@ export default function HomePage() {
               Why Choose RepRise
             </Badge>
             <h2 className="font-heading text-4xl md:text-6xl font-bold mb-6 bg-gradient-to-r from-foreground to-foreground/70 bg-clip-text">
-              Everything You Need to Succeed
+              Built for Better Matches
             </h2>
             <p className="text-xl md:text-2xl text-muted-foreground max-w-3xl mx-auto leading-relaxed">
-              Cutting-edge AI meets human expertise for perfect training matches
+              Our matching system considers what actually matters for long-term success
             </p>
           </div>
 
@@ -141,14 +141,15 @@ export default function HomePage() {
               </CardHeader>
             </Card>
 
-            <Card className="border-2 hover:border-primary/50 transition-all duration-300 hover:shadow-xl hover:-translate-y-1 group animate-fade-in delay-400">
-              <CardHeader className="space-y-4">
-                <div className="w-14 h-14 rounded-xl bg-primary/10 flex items-center justify-center group-hover:scale-110 transition-transform duration-300">
-                  <BarChart3 className="w-7 h-7 text-primary" />
+            <Card className="group relative hover:shadow-2xl transition-all duration-500 hover:-translate-y-3 animate-fade-in delay-400 border-2 overflow-hidden bg-gradient-to-br from-background to-muted/20">
+              <div className="absolute inset-0 bg-gradient-to-br from-primary/5 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
+              <CardHeader className="relative z-10 p-8 space-y-4">
+                <div className="w-16 h-16 rounded-3xl bg-gradient-to-br from-primary/10 to-primary/5 flex items-center justify-center group-hover:scale-110 group-hover:rotate-3 transition-all duration-500 shadow-lg">
+                  <BarChart3 className="w-9 h-9 text-primary" />
                 </div>
-                <CardTitle className="font-heading text-xl">Track Progress</CardTitle>
-                <CardDescription className="leading-relaxed">
-                  Monitor your fitness journey with built-in progress tracking and goal achievement metrics
+                <CardTitle className="font-heading text-2xl font-bold">Track Progress</CardTitle>
+                <CardDescription className="leading-relaxed text-base">
+                  Monitor your fitness journey with built-in progress tracking and goal metrics
                 </CardDescription>
               </CardHeader>
             </Card>
@@ -196,7 +197,7 @@ export default function HomePage() {
               How It Works
             </h2>
             <p className="text-xl md:text-2xl text-muted-foreground max-w-3xl mx-auto leading-relaxed">
-              Get matched with your ideal trainer in three effortless steps
+              From quiz to first session in under 10 minutes
             </p>
           </div>
 
@@ -239,7 +240,7 @@ export default function HomePage() {
               </div>
               <h3 className="font-heading text-3xl font-bold mb-5">Book & Start</h3>
               <p className="text-muted-foreground text-lg leading-relaxed max-w-sm mx-auto">
-                Choose your favorite trainer, book a session that fits your schedule, and begin your transformation journey
+                Pick your trainer, book a session that works for you, and get started the same week
               </p>
             </div>
           </div>
@@ -274,7 +275,7 @@ export default function HomePage() {
                   </div>
                 </div>
                 <div className="text-5xl font-bold mb-2 text-primary">
-                  <StatsCounter end={15000} suffix="+" />
+                  <StatsCounter end={2500} suffix="+" />
                 </div>
                 <div className="text-slate-700 dark:text-slate-300 font-semibold">Active Users</div>
               </Card>
@@ -288,7 +289,7 @@ export default function HomePage() {
                   </div>
                 </div>
                 <div className="text-5xl font-bold mb-2 text-terracotta">
-                  <StatsCounter end={500} suffix="+" />
+                  <StatsCounter end={150} suffix="+" />
                 </div>
                 <div className="text-slate-700 dark:text-slate-300 font-semibold">Certified Trainers</div>
               </Card>
@@ -302,7 +303,7 @@ export default function HomePage() {
                   </div>
                 </div>
                 <div className="text-5xl font-bold mb-2 text-primary">
-                  <StatsCounter end={50000} suffix="+" />
+                  <StatsCounter end={1200} suffix="+" />
                 </div>
                 <div className="text-slate-700 dark:text-slate-300 font-semibold">Sessions Booked</div>
               </Card>
@@ -341,7 +342,7 @@ export default function HomePage() {
               What Our Clients Say
             </h2>
             <p className="text-xl md:text-2xl text-muted-foreground max-w-3xl mx-auto leading-relaxed">
-              Real transformations from people just like you
+              Hear from people who found their match
             </p>
           </div>
 
@@ -351,11 +352,11 @@ export default function HomePage() {
               <CardHeader className="relative z-10">
                 <div className="flex items-center gap-4 mb-4">
                   <div className="w-12 h-12 rounded-full bg-gradient-to-br from-primary to-terracotta flex items-center justify-center text-white font-bold text-lg shadow-lg">
-                    SL
+                    KD
                   </div>
                   <div>
-                    <CardTitle className="text-lg">Sarah L.</CardTitle>
-                    <CardDescription>Lost 25lbs in 4 months</CardDescription>
+                    <CardTitle className="text-lg">Kevin D.</CardTitle>
+                    <CardDescription>Software Engineer, Boston</CardDescription>
                   </div>
                 </div>
                 <div className="flex gap-1 mb-4">
@@ -366,7 +367,7 @@ export default function HomePage() {
               </CardHeader>
               <CardContent>
                 <p className="text-muted-foreground leading-relaxed italic">
-                  &quot;The matching algorithm is incredible! My trainer understands my limitations and pushes me just the right amount. Best fitness decision I&apos;ve ever made.&quot;
+                  &quot;I work weird hours and needed someone flexible. The quiz asked about my schedule and matched me with a trainer who does early mornings. Three months in and I haven&apos;t missed a session.&quot;
                 </p>
               </CardContent>
             </Card>
@@ -376,11 +377,11 @@ export default function HomePage() {
               <CardHeader className="relative z-10">
                 <div className="flex items-center gap-4 mb-4">
                   <div className="w-12 h-12 rounded-full bg-gradient-to-br from-terracotta to-primary flex items-center justify-center text-white font-bold text-lg shadow-lg">
-                    MT
+                    RN
                   </div>
                   <div>
-                    <CardTitle className="text-lg">Marcus T.</CardTitle>
-                    <CardDescription>Marathon ready in 6 months</CardDescription>
+                    <CardTitle className="text-lg">Rachel N.</CardTitle>
+                    <CardDescription>New Mom, Denver</CardDescription>
                   </div>
                 </div>
                 <div className="flex gap-1 mb-4">
@@ -391,7 +392,7 @@ export default function HomePage() {
               </CardHeader>
               <CardContent>
                 <p className="text-muted-foreground leading-relaxed italic">
-                  &quot;I was skeptical about online matching, but RepRise nailed it. My trainer&apos;s style perfectly matches my personality and goals. Just ran my first marathon!&quot;
+                  &quot;After my second kid, I needed someone who understood postpartum fitness. My trainer specializes in it and has been amazing. Worth every penny.&quot;
                 </p>
               </CardContent>
             </Card>
@@ -401,11 +402,11 @@ export default function HomePage() {
               <CardHeader className="relative z-10">
                 <div className="flex items-center gap-4 mb-4">
                   <div className="w-12 h-12 rounded-full bg-gradient-to-br from-primary to-terracotta flex items-center justify-center text-white font-bold text-lg shadow-lg">
-                    JP
+                    TM
                   </div>
                   <div>
-                    <CardTitle className="text-lg">Jessica P.</CardTitle>
-                    <CardDescription>Gained strength & confidence</CardDescription>
+                    <CardTitle className="text-lg">Tom M.</CardTitle>
+                    <CardDescription>Retired Teacher, Austin</CardDescription>
                   </div>
                 </div>
                 <div className="flex gap-1 mb-4">
@@ -416,7 +417,7 @@ export default function HomePage() {
               </CardHeader>
               <CardContent>
                 <p className="text-muted-foreground leading-relaxed italic">
-                  &quot;Finding a trainer who gets my anxiety around gyms was life-changing. The quiz really works - my trainer is supportive, patient, and professional.&quot;
+                  &quot;I&apos;m 62 with a bad knee. The quiz matched me with someone who actually knows joint-friendly training. No cookie-cutter workouts here.&quot;
                 </p>
               </CardContent>
             </Card>
@@ -424,41 +425,6 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* Social Proof Section */}
-      <section className="py-24 bg-gradient-to-br from-primary via-primary/95 to-primary/90 text-primary-foreground relative overflow-hidden">
-        <div className="absolute inset-0 opacity-10">
-          <div className="absolute top-10 left-10 w-72 h-72 bg-white rounded-full blur-3xl" />
-          <div className="absolute bottom-10 right-10 w-96 h-96 bg-white rounded-full blur-3xl" />
-        </div>
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative">
-          <div className="text-center mb-16 animate-fade-in">
-            <h2 className="font-heading text-4xl md:text-5xl font-bold mb-4">
-              Join Thousands of Success Stories
-            </h2>
-            <p className="text-xl text-primary-foreground/90">
-              Real results from real people transforming their lives
-            </p>
-          </div>
-          <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-8">
-            <div className="text-center animate-scale-in delay-100">
-              <div className="text-5xl md:text-6xl font-bold mb-3 animate-float">1,247</div>
-              <div className="text-lg text-primary-foreground/90">Sessions Completed</div>
-            </div>
-            <div className="text-center animate-scale-in delay-200">
-              <div className="text-5xl md:text-6xl font-bold mb-3 animate-float" style={{ animationDelay: '0.5s' }}>98%</div>
-              <div className="text-lg text-primary-foreground/90">Match Satisfaction</div>
-            </div>
-            <div className="text-center animate-scale-in delay-300">
-              <div className="text-5xl md:text-6xl font-bold mb-3 animate-float" style={{ animationDelay: '1s' }}>156</div>
-              <div className="text-lg text-primary-foreground/90">Expert Trainers</div>
-            </div>
-            <div className="text-center animate-scale-in delay-400">
-              <div className="text-5xl md:text-6xl font-bold mb-3 animate-float" style={{ animationDelay: '1.5s' }}>4.9</div>
-              <div className="text-lg text-primary-foreground/90">Average Rating</div>
-            </div>
-          </div>
-        </div>
-      </section>
 
       {/* CTA Section */}
       <section className="relative py-32 overflow-hidden bg-gradient-to-br from-primary/5 via-background to-terracotta/5">
@@ -478,7 +444,7 @@ export default function HomePage() {
               </span>
             </h2>
             <p className="text-xl md:text-2xl text-muted-foreground mb-14 max-w-3xl mx-auto leading-relaxed font-medium">
-              Take the first step today. Your perfect trainer is waiting to help you achieve your goals.
+              Take the 2-minute quiz and see who you match with. No commitment required.
             </p>
             <div className="flex flex-col sm:flex-row gap-6 justify-center items-center">
               <Button asChild size="lg" className="group relative text-lg h-16 px-14 shadow-2xl hover:shadow-primary/50 transition-all duration-300 overflow-hidden">

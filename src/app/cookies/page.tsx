@@ -222,7 +222,7 @@ export default function CookiesPage() {
                   Questions about our use of cookies? Contact us:
                 </p>
                 <p className="leading-relaxed">
-                  Email: <a href="mailto:privacy@reprise.com" className="text-primary hover:underline font-bold">privacy@reprise.com</a><br />
+                  Email: <a href="mailto:privacy@reprise.app" className="text-primary hover:underline font-bold">privacy@reprise.app</a><br />
                   See our full <Link href="/privacy" className="text-primary hover:underline font-bold">Privacy Policy</Link>
                 </p>
               </CardContent>

@@ -4,7 +4,7 @@ import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/com
 import { Badge } from '@/components/ui/badge'
 import { Input } from '@/components/ui/input'
 import { Label } from '@/components/ui/label'
-import { Mail, MessageSquare, Phone, MapPin, Clock } from 'lucide-react'
+import { Mail, MessageSquare, MapPin, Clock } from 'lucide-react'
 
 export const metadata: Metadata = {
   title: 'Contact Us - RepRise',
@@ -20,22 +20,22 @@ export default function ContactPage() {
     {
       icon: Mail,
       title: 'Email Us',
-      description: 'Send us an email anytime',
-      value: 'hello@reprise.com',
-      action: 'mailto:hello@reprise.com',
-    },
-    {
-      icon: Phone,
-      title: 'Call Us',
-      description: 'Mon-Fri, 9am-6pm EST',
-      value: '(555) 123-4567',
-      action: 'tel:+15551234567',
+      description: 'Response within 24 hours',
+      value: 'support@reprise.app',
+      action: 'mailto:support@reprise.app',
     },
     {
       icon: MessageSquare,
-      title: 'Live Chat',
-      description: 'Available during business hours',
-      value: 'Start Chat',
+      title: 'Help Center',
+      description: 'Browse common questions',
+      value: 'View Articles',
+      action: '/help',
+    },
+    {
+      icon: Clock,
+      title: 'Support Hours',
+      description: 'Our team is available',
+      value: 'Mon-Fri, 9am-6pm EST',
       action: '#',
     },
   ]
@@ -141,7 +141,7 @@ export default function ContactPage() {
         </div>
       </section>
 
-      {/* Office Info */}
+      {/* Company Info */}
       <section className="py-28 bg-gradient-to-br from-muted/30 via-muted/10 to-muted/30">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid md:grid-cols-2 gap-12">
@@ -150,11 +150,9 @@ export default function ContactPage() {
                 <div className="w-16 h-16 rounded-3xl bg-primary/10 flex items-center justify-center mb-4">
                   <MapPin className="w-8 h-8 text-primary" />
                 </div>
-                <CardTitle className="text-2xl font-black">Visit Our Office</CardTitle>
+                <CardTitle className="text-2xl font-black">Our Team</CardTitle>
                 <CardDescription className="text-base leading-relaxed">
-                  RepRise HQ<br />
-                  123 Fitness Street, Suite 456<br />
-                  San Francisco, CA 94102
+                  RepRise is a remote-first company with team members across the US. We respond to all inquiries within one business day.
                 </CardDescription>
               </CardHeader>
             </Card>
@@ -164,11 +162,11 @@ export default function ContactPage() {
                 <div className="w-16 h-16 rounded-3xl bg-primary/10 flex items-center justify-center mb-4">
                   <Clock className="w-8 h-8 text-primary" />
                 </div>
-                <CardTitle className="text-2xl font-black">Business Hours</CardTitle>
+                <CardTitle className="text-2xl font-black">Response Times</CardTitle>
                 <CardDescription className="text-base leading-relaxed">
-                  Monday - Friday: 9:00 AM - 6:00 PM EST<br />
-                  Saturday: 10:00 AM - 4:00 PM EST<br />
-                  Sunday: Closed
+                  Email: Within 24 hours<br />
+                  Urgent issues: Same business day<br />
+                  Trainer disputes: Within 48 hours
                 </CardDescription>
               </CardHeader>
             </Card>
