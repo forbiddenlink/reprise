@@ -64,7 +64,7 @@ export default function HomePage() {
             </h1>
             <p className="text-xl md:text-2xl mb-12 text-white/95 leading-relaxed drop-shadow-lg max-w-3xl mx-auto font-medium animate-fade-in delay-200">
               Match with trainers who fit your goals, schedule, and personality.
-              <span className="block mt-2 text-white/80">Stop guessing. Start training with someone who gets you.</span>
+              {' '}<span className="block mt-2 text-white/80">Stop guessing. Start training with someone who gets you.</span>
             </p>
             <div className="flex flex-col sm:flex-row gap-5 justify-center items-center animate-fade-in delay-300">
               <Button asChild size="lg" className="group relative text-lg h-16 px-12 shadow-2xl hover:shadow-primary/50 transition-all duration-300 overflow-hidden">
@@ -102,7 +102,7 @@ export default function HomePage() {
           </div>
 
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
-            <Card className="group relative hover:shadow-2xl transition-all duration-500 hover:-translate-y-3 animate-fade-in delay-100 border-2 overflow-hidden bg-gradient-to-br from-background to-muted/20">
+            <Card className="group relative transition-all duration-500 hover:-translate-y-2 animate-fade-in delay-100 overflow-hidden bg-gradient-to-br from-background to-muted/20">
               <div className="absolute inset-0 bg-gradient-to-br from-primary/5 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
               <CardHeader className="relative z-10 p-8 space-y-4">
                 <div className="w-16 h-16 rounded-3xl bg-gradient-to-br from-primary/10 to-primary/5 flex items-center justify-center group-hover:scale-110 group-hover:rotate-3 transition-all duration-500 shadow-lg">
@@ -115,7 +115,7 @@ export default function HomePage() {
               </CardHeader>
             </Card>
 
-            <Card className="group relative hover:shadow-2xl transition-all duration-500 hover:-translate-y-3 animate-fade-in delay-200 border-2 overflow-hidden bg-gradient-to-br from-background to-muted/20">
+            <Card className="group relative transition-all duration-500 hover:-translate-y-2 animate-fade-in delay-200 overflow-hidden bg-gradient-to-br from-background to-muted/20">
               <div className="absolute inset-0 bg-gradient-to-br from-terracotta/5 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
               <CardHeader className="relative z-10 p-8 space-y-4">
                 <div className="w-16 h-16 rounded-3xl bg-gradient-to-br from-terracotta/10 to-terracotta/5 flex items-center justify-center group-hover:scale-110 group-hover:rotate-3 transition-all duration-500 shadow-lg">
@@ -128,7 +128,7 @@ export default function HomePage() {
               </CardHeader>
             </Card>
 
-            <Card className="group relative hover:shadow-2xl transition-all duration-500 hover:-translate-y-3 animate-fade-in delay-300 border-2 overflow-hidden bg-gradient-to-br from-background to-muted/20">
+            <Card className="group relative transition-all duration-500 hover:-translate-y-2 animate-fade-in delay-300 overflow-hidden bg-gradient-to-br from-background to-muted/20">
               <div className="absolute inset-0 bg-gradient-to-br from-primary/5 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
               <CardHeader className="relative z-10 p-8 space-y-4">
                 <div className="w-16 h-16 rounded-3xl bg-gradient-to-br from-primary/10 to-primary/5 flex items-center justify-center group-hover:scale-110 group-hover:rotate-3 transition-all duration-500 shadow-lg">
@@ -141,7 +141,7 @@ export default function HomePage() {
               </CardHeader>
             </Card>
 
-            <Card className="group relative hover:shadow-2xl transition-all duration-500 hover:-translate-y-3 animate-fade-in delay-400 border-2 overflow-hidden bg-gradient-to-br from-background to-muted/20">
+            <Card className="group relative transition-all duration-500 hover:-translate-y-2 animate-fade-in delay-400 overflow-hidden bg-gradient-to-br from-background to-muted/20">
               <div className="absolute inset-0 bg-gradient-to-br from-primary/5 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
               <CardHeader className="relative z-10 p-8 space-y-4">
                 <div className="w-16 h-16 rounded-3xl bg-gradient-to-br from-primary/10 to-primary/5 flex items-center justify-center group-hover:scale-110 group-hover:rotate-3 transition-all duration-500 shadow-lg">
@@ -154,7 +154,7 @@ export default function HomePage() {
               </CardHeader>
             </Card>
 
-            <Card className="group relative hover:shadow-2xl transition-all duration-500 hover:-translate-y-3 animate-fade-in delay-400 border-2 overflow-hidden bg-gradient-to-br from-background to-muted/20">
+            <Card className="group relative transition-all duration-500 hover:-translate-y-2 animate-fade-in delay-400 overflow-hidden bg-gradient-to-br from-background to-muted/20">
               <div className="absolute inset-0 bg-gradient-to-br from-terracotta/5 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
               <CardHeader className="relative z-10 p-8 space-y-4">
                 <div className="w-16 h-16 rounded-3xl bg-gradient-to-br from-terracotta/10 to-terracotta/5 flex items-center justify-center group-hover:scale-110 group-hover:rotate-3 transition-all duration-500 shadow-lg">
@@ -167,7 +167,7 @@ export default function HomePage() {
               </CardHeader>
             </Card>
 
-            <Card className="group relative hover:shadow-2xl transition-all duration-500 hover:-translate-y-3 animate-fade-in delay-500 border-2 overflow-hidden bg-gradient-to-br from-background to-muted/20">
+            <Card className="group relative transition-all duration-500 hover:-translate-y-2 animate-fade-in delay-500 overflow-hidden bg-gradient-to-br from-background to-muted/20">
               <div className="absolute inset-0 bg-gradient-to-br from-primary/5 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
               <CardHeader className="relative z-10 p-8 space-y-4">
                 <div className="w-16 h-16 rounded-3xl bg-gradient-to-br from-primary/10 to-primary/5 flex items-center justify-center group-hover:scale-110 group-hover:rotate-3 transition-all duration-500 shadow-lg">
@@ -361,7 +361,7 @@ export default function HomePage() {
                 </div>
                 <div className="flex gap-1 mb-4">
                   {[...Array(5)].map((_, i) => (
-                    <Star key={i} className="w-4 h-4 fill-primary text-primary" />
+                    <Star key={`star-${i}`} className="w-4 h-4 fill-primary text-primary" />
                   ))}
                 </div>
               </CardHeader>
@@ -386,7 +386,7 @@ export default function HomePage() {
                 </div>
                 <div className="flex gap-1 mb-4">
                   {[...Array(5)].map((_, i) => (
-                    <Star key={i} className="w-4 h-4 fill-primary text-primary" />
+                    <Star key={`star-rachel-${i}`} className="w-4 h-4 fill-primary text-primary" />
                   ))}
                 </div>
               </CardHeader>
@@ -411,7 +411,7 @@ export default function HomePage() {
                 </div>
                 <div className="flex gap-1 mb-4">
                   {[...Array(5)].map((_, i) => (
-                    <Star key={i} className="w-4 h-4 fill-primary text-primary" />
+                    <Star key={`star-tom-${i}`} className="w-4 h-4 fill-primary text-primary" />
                   ))}
                 </div>
               </CardHeader>
@@ -439,7 +439,7 @@ export default function HomePage() {
             </Badge>
             <h2 className="font-heading text-5xl md:text-7xl font-black mb-8 leading-tight">
               Ready to Transform Your
-              <span className="block mt-2 bg-gradient-to-r from-primary via-terracotta to-primary bg-[length:200%_100%] animate-gradient bg-clip-text text-transparent">
+              {' '}<span className="block mt-2 bg-gradient-to-r from-primary via-terracotta to-primary bg-[length:200%_100%] animate-gradient bg-clip-text text-transparent">
                 Fitness Journey?
               </span>
             </h2>

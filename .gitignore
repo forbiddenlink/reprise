@@ -37,3 +37,6 @@ yarn-error.log*
 
 #Ignore vscode AI rules
 .github/instructions/codacy.instructions.md
+
+# Specter knowledge graph cache
+.specter/
