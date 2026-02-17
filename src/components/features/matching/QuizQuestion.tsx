@@ -28,15 +28,15 @@ export function QuizQuestion({ question }: QuizQuestionProps) {
 
   if (question.type === 'single') {
     return (
-      <div className="space-y-6 animate-fade-in">
+      <div className="space-y-5">
         <div>
-          <h2 className="text-3xl font-heading font-bold text-text-primary mb-3">
+          <h2 className="text-xl font-heading font-semibold mb-1">
             {question.text}
           </h2>
-          <p className="text-text-secondary font-body">Select one option</p>
+          <p className="text-sm text-muted-foreground">Select one option</p>
         </div>
 
-        <div className="space-y-3">
+        <div className="space-y-2">
           {question.options.map((option) => {
             const isSelected = currentAnswer === option.value
 
@@ -50,25 +50,25 @@ export function QuizQuestion({ question }: QuizQuestionProps) {
                   setAnswer(question.id, option.value)
                 }}
                 className={cn(
-                  'w-full flex items-center space-x-4 p-5 rounded-lg border-2 transition-all',
-                  'hover:border-primary hover:bg-primary/5',
+                  'w-full flex items-center gap-3 p-4 rounded-lg border transition-all duration-200',
+                  'hover:border-primary/50 hover:bg-primary/5',
                   'focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-primary focus-visible:ring-offset-2',
                   isSelected
                     ? 'border-primary bg-primary/10'
-                    : 'border-border bg-surface'
+                    : 'border-border bg-card'
                 )}
               >
                 <div
                   className={cn(
-                    'w-5 h-5 rounded-full border-2 flex items-center justify-center transition-all',
-                    isSelected ? 'border-primary' : 'border-text-secondary'
+                    'w-4 h-4 rounded-full border-2 flex items-center justify-center transition-colors',
+                    isSelected ? 'border-primary' : 'border-muted-foreground'
                   )}
                 >
                   {isSelected && (
-                    <div className="w-3 h-3 rounded-full bg-primary" />
+                    <div className="w-2 h-2 rounded-full bg-primary" />
                   )}
                 </div>
-                <span className="flex-1 text-left font-body text-base">
+                <span className="flex-1 text-left text-sm">
                   {option.label}
                 </span>
               </button>
@@ -83,15 +83,15 @@ export function QuizQuestion({ question }: QuizQuestionProps) {
   const selectedValues = (currentAnswer as string[]) || []
 
   return (
-    <div className="space-y-6 animate-fade-in">
+    <div className="space-y-5">
       <div>
-        <h2 className="text-3xl font-heading font-bold text-text-primary mb-3">
+        <h2 className="text-xl font-heading font-semibold mb-1">
           {question.text}
         </h2>
-        <p className="text-text-secondary font-body">Select all that apply</p>
+        <p className="text-sm text-muted-foreground">Select all that apply</p>
       </div>
 
-      <div className="space-y-3">
+      <div className="space-y-2">
         {question.options.map((option) => {
           const isChecked = selectedValues.includes(option.value)
 
@@ -108,20 +108,20 @@ export function QuizQuestion({ question }: QuizQuestionProps) {
                 setAnswer(question.id, newValues)
               }}
               className={cn(
-                'w-full flex items-center space-x-4 p-5 rounded-lg border-2 transition-all',
-                'hover:border-primary hover:bg-primary/5',
+                'w-full flex items-center gap-3 p-4 rounded-lg border transition-all duration-200',
+                'hover:border-primary/50 hover:bg-primary/5',
                 'focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-primary focus-visible:ring-offset-2',
                 isChecked
                   ? 'border-primary bg-primary/10'
-                  : 'border-border bg-surface'
+                  : 'border-border bg-card'
               )}
             >
               <Checkbox
                 checked={isChecked}
-                onCheckedChange={() => {}} // Handled by button onClick
+                onCheckedChange={() => {}}
                 className="pointer-events-none"
               />
-              <span className="flex-1 text-left font-body text-base">
+              <span className="flex-1 text-left text-sm">
                 {option.label}
               </span>
             </button>

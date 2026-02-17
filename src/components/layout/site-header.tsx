@@ -31,33 +31,29 @@ export function SiteHeader() {
           {/* Logo */}
           <Link 
             href="/" 
-            className="flex items-center gap-2 hover:opacity-80 transition-all hover:scale-105"
+            className="flex items-center gap-2 hover:opacity-80 transition-opacity"
             aria-label="RepRise home"
           >
             <Logo size="md" showText={true} className="text-2xl" />
           </Link>
 
           {/* Desktop Navigation */}
-          <div className="hidden md:flex items-center gap-8">
+          <div className="hidden md:flex items-center gap-6">
             {navLinks.map((link) => (
               <Link
                 key={link.href}
                 href={link.href}
                 className={cn(
-                  'text-sm font-medium transition-all hover:text-primary relative group',
+                  'text-sm transition-colors hover:text-primary',
                   isActive(link.href)
-                    ? 'text-foreground'
+                    ? 'text-foreground font-medium'
                     : 'text-muted-foreground'
                 )}
               >
                 {link.label}
-                {isActive(link.href) && (
-                  <span className="absolute -bottom-[21px] left-0 right-0 h-0.5 bg-primary" />
-                )}
-                <span className="absolute -bottom-[21px] left-0 right-0 h-0.5 bg-primary scale-x-0 group-hover:scale-x-100 transition-transform origin-left" />
               </Link>
             ))}
-            <Button asChild size="sm" className="shadow-md hover:shadow-lg transition-all hover:scale-105">
+            <Button asChild size="sm">
               <Link href="/match/quiz">Get Started</Link>
             </Button>
           </div>
